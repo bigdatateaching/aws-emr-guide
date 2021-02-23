@@ -161,13 +161,6 @@ The first time you create a cluster, you have to edit the Master Security group 
 1. Go to the EMR console and click on the cluster of interest which takes you to the cluster's summary page
 2. Copy the _Master Public DNS_ from the Summary Section
 
-	#### For a Hadoop only cluster
-	
-	a. Use ssh agent forwarding, so add your private key to memory using `ssh-add` (use the right approach based on your operating system.)
-	b. `ssh` to the master node using the `hadoop` username
-	
-	`ssh -A hadoop...` 
-
 
 	#### For a Hadoop only cluster
 	
