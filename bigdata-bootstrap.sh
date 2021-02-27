@@ -33,12 +33,12 @@ conda install \
 -c defaults \
 -c conda-forge \
 -y \
-dask-yarn>=0.7.0 \
+dask-yarn \
 pyarrow \
 s3fs \
 bokeh \
 conda-pack \
-tornado=5
+tornado
 
 
 
@@ -124,7 +124,7 @@ hdf5 \
 seaborn \
 pyspark
 
-conda install -c johnsnowlabs -y spark-nlp=2.4.5
+conda install -c johnsnowlabs -y spark-nlp
 
 
 
