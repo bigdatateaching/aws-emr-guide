@@ -1,8 +1,13 @@
 #!/bin/bash
 
 # modified and adapted from https://raw.githubusercontent.com/dask/dask-yarn/master/deployment_resources/aws-emr/bootstrap-dask
-set -x -e
+# Created by Marck Vaisman
 
+# Release note:
+# 2021-02-27 Bootstrap script has been re-tested with emr-5.29.0 on 2021-02-27 and boot was successful. However, given an error with PySpark, python was fixed at version 3.7. This bootstrap script DOES NOT work with emr-6.0+
+
+
+set -x -e
 
 start_time="$(date -u +%s.%N)"
 
@@ -33,6 +38,7 @@ conda install \
 -c defaults \
 -c conda-forge \
 -y \
+python=3.7 \
 dask-yarn \
 pyarrow \
 s3fs \
