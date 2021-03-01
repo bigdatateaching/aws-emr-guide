@@ -46,12 +46,12 @@ In this step, you will choose which tools and versions are going to be installed
 	b. Click Next to go to Step 2
 
 
-	#### For a **Spark** cluster
+	#### For a **Spark** cluster (note the EMR version is different)
 	
-	a. Under _Software Configuration_ section, select `emr-6.2.0` from the drop-down and make sure that the **only these applications are selected**: 
+	a. Under _Software Configuration_ section, select `emr-5.29.0` from the drop-down and make sure that the **only these applications are selected**: 
 
-	* Hadoop 3.2.1 
-	* Spark 3.0.1
+	* Hadoop 2.8.5 
+	* Spark 2.4.4
 	* **Uncheck everything else**
 
 	b. In the **_Edit software settings_** section, click on **_Load JSON from S3_**, and enter the following location in the box: `s3://bigdatateaching/bootstrap/cluster-config.json`
