@@ -4,8 +4,7 @@
 # Created by Marck Vaisman
 
 # Release note:
-# 2021-02-27 Bootstrap script has been re-tested with emr-5.29.0 on 2021-02-27 and boot was successful. However, given an error with PySpark, python was fixed at version 3.7. This bootstrap script DOES NOT work with emr-6.0+
-
+# 2021-02-27 Bootstrap script has been re-tested with emr-5.29.0 on 2021-02-27 and boot was successful. However, given an error with PySpark, python was fixed at version 3.7. This bootstrap script DOES NOT work with emr-5.30+ since the underlying Linux was changed to Amazon Linux 2.
 
 set -x -e
 
