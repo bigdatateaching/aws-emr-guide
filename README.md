@@ -5,16 +5,9 @@ This guide will show you how to start two kinds of clusters:
 * A cluster with with only Hadoop (used for the Hadoop Streaming lab and assignment)
 * A cluster with Hadoop, Spark and special customizations which require a bootstrap action and other configutations. (called a Spark cluster and used for the rest of the course)
 
-**Please follow the instructions and don't use the screenshots as a guide since screenshots can be outdated.**
+**Please follow the instructions carefully. Use the screenshots as a guide since screenshots can be outdated.**
 
-## Starting a cluster with Hadoop only
-
-You will use this section when working with Hadoop Streaming. If you need Spark, you must follow the directions in the Spark section.
-
-
-
-Both files are included here for reference.
-
+## Starting a cluster
 
 ### Start: Go to the Elastic MapReduce (EMR) Console
 
